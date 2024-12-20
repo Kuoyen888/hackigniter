@@ -21,9 +21,9 @@ steps:
 - task: FortifyScanCentralSAST@7
   inputs:
     scanCentralCtrlUrl: 'http://azscc.japaneast.cloudapp.azure.com:8080/scancentral-ctrl'
-    scanCentralClientToken: 'OWJkNTk0MmYtODYyZS00OWUzLWFjMmYtZTlkMTk0ODI3NTNj'
+    scanCentralClientToken: '9bd5942f-862e-49e3-ac2f-e9d19482753c'
     sscUrl: 'https://azssc.japaneast.cloudapp.azure.com/ssc'
-    sscCiToken: 'YjE4ZjMxOGQtNDI0Ni00MDQwLWE0ZTQtNjI1Yzk1NzkzZGUw'
+    sscCiToken: 'b18f318d-4246-4040-a4e4-625c95793de0'
     uploadToSSC: true
     applicationName: 'hackigniter'
     applicationVersion: '1.0'
