@@ -17,13 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-- task: FortifyScanCentralSAST@7
-  inputs:
-    scanCentralCtrlUrl: 'http://azscc.japaneast.cloudapp.azure.com:8080/scancentral-ctrl'
-    scanCentralClientToken: '9bd5942f-862e-49e3-ac2f-e9d19482753c'
-    sscUrl: 'https://azssc.japaneast.cloudapp.azure.com/ssc'
-    sscCiToken: 'b18f318d-4246-4040-a4e4-625c95793de0'
-    uploadToSSC: true
-    applicationName: 'hackigniter'
-    applicationVersion: '1.0'
